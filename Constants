@@ -1,0 +1,10 @@
+Hello, these are the constants that I have used everywhere and what they represent:
+k: Consumption Rate 
+chi_C: Food Sensitivity
+chi_S: Factor Sensitivity
+alpha: Factor Secretion Rate
+N: Population
+v: Swim Velocity
+S_0: Optimal Concentration
+n: Hill Coefficient
+lambda_0: Run and Tumble exponential Coefficient
