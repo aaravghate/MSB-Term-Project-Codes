@@ -85,6 +85,7 @@ for model_type = 1:2
                     direction = sign(randn(1, N_bacteria)); direction(direction == 0) = 1; 
                     
                     C_memory = interp1(x, C_current, x_b, 'linear', 'extrap');
+                    C_current = max(0, C_current);
                     S_memory = interp1(x, S_current, x_b, 'linear', 'extrap');
                     
                     % loop over time
